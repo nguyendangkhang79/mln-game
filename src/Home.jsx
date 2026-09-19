@@ -50,7 +50,7 @@ export default function Home() {
       <main className="home-main">
         <section className="home-copy">
           <div className="topic-label"><span /> TRÒ CHƠI TƯƠNG TÁC · CHỦ ĐỀ 4</div>
-          <h1>Khám phá cơ cấu xã hội<br />và sức mạnh<br /><em>của liên minh.</em></h1>
+          <h1>Khám phá cơ cấu xã hội<br />và sức mạnh của<br /><em>liên minh.</em></h1>
           <p className="home-lead">Một ván Bingo tương tác về giai cấp, tầng lớp và liên minh trong thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam. Sắp xếp thẻ, lắng nghe từ khóa và kết nối đủ năm ô để chiến thắng.</p>
 
           <form className="join-card" onSubmit={handleJoinRoom}>
