@@ -1,0 +1,26 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="red" x1="13" y1="8" x2="52" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C52C34"/>
+      <stop offset="1" stop-color="#7F151B"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="22" y1="17" x2="44" y2="47" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4D77D"/>
+      <stop offset="1" stop-color="#C49332"/>
+    </linearGradient>
+    <filter id="shadow" x="-10" y="-8" width="84" height="84" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#521014" flood-opacity=".2"/>
+    </filter>
+  </defs>
+  <g filter="url(#shadow)">
+    <path d="M32 4.5C42.7 4.5 52.3 9 59 16.2V38c0 11.9-10.8 18.2-27 22C15.8 56.2 5 49.9 5 38V16.2C11.7 9 21.3 4.5 32 4.5Z" fill="url(#red)"/>
+    <path d="M32 7.7c9.4 0 17.9 3.8 23.8 9.8v19.9c0 9.5-8.5 15-23.8 18.8C16.7 52.4 8.2 46.9 8.2 37.4V17.5c5.9-6 14.4-9.8 23.8-9.8Z" stroke="#F2D170" stroke-opacity=".48" stroke-width="1.4"/>
+  </g>
+  <ellipse cx="32" cy="30" rx="17.2" ry="11.4" stroke="#F6E6AC" stroke-opacity=".65" stroke-width="1.2"/>
+  <ellipse cx="32" cy="30" rx="7.3" ry="17.2" stroke="#F6E6AC" stroke-opacity=".45" stroke-width="1.1"/>
+  <path d="M15.4 30h33.2M18.7 21.8h26.6M18.7 38.2h26.6" stroke="#F6E6AC" stroke-opacity=".3" stroke-width="1" stroke-linecap="round"/>
+  <path d="m32 18.1 2.7 5.5 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1-4.4-4.3 6.1-.9 2.7-5.5Z" fill="url(#gold)"/>
+  <path d="M12.5 43.8c7.2 5 14.4 7.6 21.6 7.6 7 0 12.7-1.7 17.4-5.1" stroke="#F1D477" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="1 4"/>
+  <circle cx="12.5" cy="43.8" r="2.2" fill="#F3D476"/>
+  <circle cx="51.5" cy="46.3" r="2.2" fill="#F3D476"/>
+</svg>
