@@ -36,9 +36,9 @@ export default function Home() {
   return (
     <div className="light-home">
       <header className="home-header">
-        <a className="home-brand" href="/" aria-label="Kết nối xã hội - Trang chủ">
+        <a className="home-brand" href="/" aria-label="Bingo xã hội - Trang chủ">
           <span className="home-brand-mark"><img src="/brand-mark.svg" alt="" /></span>
-          <span><strong>KẾT NỐI</strong><small>XÃ HỘI · SLOT 6</small></span>
+          <span><strong>BINGO XÃ HỘI</strong><small>SỨC MẠNH LIÊN MINH</small></span>
         </a>
         <nav className="home-nav" aria-label="Điều hướng chính">
           <button type="button" onClick={() => setShowHelp(true)}>Cách chơi</button>

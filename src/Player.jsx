@@ -302,10 +302,10 @@ export default function Player() {
                 <Icon name="back" />
               </button>
               <div className="brand-mark"><img src="/brand-mark.svg" alt="" /></div>
-              <div>
-                <p className="eyebrow">BINGO HỘI NHẬP</p>
-                <h1>Biên giới mềm</h1>
-              </div>
+              <span className="player-brand-text">
+                <strong>BINGO XÃ HỘI</strong>
+                <small>SỨC MẠNH LIÊN MINH</small>
+              </span>
             </div>
             <div className="header-meta">
               <span className={`status-badge status-${gameStatus}`}>

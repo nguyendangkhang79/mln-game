@@ -6,7 +6,7 @@ body:has(.player-page) { background: #07100e; }
 .player-shell { width:min(1440px,100%); margin:auto; padding:22px 28px 34px; box-sizing:border-box; }
 .player-header { min-height:62px; display:flex; align-items:center; justify-content:space-between; gap:24px; padding:0 2px 18px; border-bottom:1px solid rgba(255,255,255,.12); }
 .brand-group,.header-meta,.player-identity,.section-heading,.action-bar,.action-message strong { display:flex; align-items:center; }
-.brand-group { gap:12px; }.brand-mark { display:grid; place-items:center; width:42px; height:42px; border:1px solid rgba(216,180,90,.6); border-radius:13px; color:#191308; background:linear-gradient(145deg,#f0d891,#bd8d32); font-weight:900; font-size:21px; box-shadow:0 6px 20px rgba(0,0,0,.22); }
+.brand-group { gap:12px; }.brand-mark { display:grid; place-items:center; width:45px; height:45px; }.brand-mark img { display:block; width:45px; height:45px; }.player-brand-text { display:flex; flex-direction:column; line-height:1.05; }.player-brand-text strong { color:#fff; font-size:16px; letter-spacing:.13em; }.player-brand-text small { margin-top:3px; color:var(--gold); font-size:9px; font-weight:800; letter-spacing:.25em; }
 .eyebrow { margin:0 0 3px; color:var(--gold); font-size:10px; line-height:1.2; font-weight:800; letter-spacing:.19em; }
 .player-header h1 { margin:0; color:#fff; font-size:20px; line-height:1.15; letter-spacing:-.01em; font-weight:750; }
 .icon-button { display:grid; place-items:center; width:42px; height:42px; padding:0; border:1px solid rgba(255,255,255,.14); border-radius:13px; color:#e8e5dc; background:rgba(255,255,255,.055); cursor:pointer; transition:.2s ease; }
@@ -52,8 +52,8 @@ body:has(.player-page) { background:#f4f1e9; }
 .player-page .player-shell { position:relative; }
 .player-page .player-shell::before { content:""; position:fixed; inset:0; z-index:-1; pointer-events:none; opacity:.42; background-image:linear-gradient(rgba(70,61,45,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(70,61,45,.04) 1px,transparent 1px); background-size:32px 32px; mask-image:linear-gradient(to right,black,transparent 72%); }
 .player-header { border-bottom-color:rgba(35,48,43,.13); }
-.brand-mark { width:45px; height:45px; border:0; border-radius:0; background:none; box-shadow:none; }
-.brand-mark img { display:block; width:45px; height:45px; }
+.player-brand-text strong { color:#17211e; }
+.player-brand-text small { color:#9d711f; }
 .player-header h1 { color:#17211e; font-family:Georgia,'Times New Roman',serif; font-weight:600; }
 .eyebrow { color:#9d711f; }
 .icon-button { color:#5e6965; border-color:#d7d7d0; background:rgba(255,255,255,.72); box-shadow:0 4px 14px rgba(50,45,35,.045); }
